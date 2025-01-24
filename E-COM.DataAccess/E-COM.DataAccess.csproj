@@ -1,10 +1,10 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
-    <Nullable>enable</Nullable>
+    <RootNamespace>E_COM.DataAccess</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
-    <RootNamespace>E_COMWeb</RootNamespace>
+    <Nullable>enable</Nullable>
   </PropertyGroup>
 
   <ItemGroup>
@@ -17,7 +17,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\E-COM.DataAccess\E-COM.DataAccess.csproj" />
     <ProjectReference Include="..\E-COM.Models\E-COM.Models.csproj" />
   </ItemGroup>
 
